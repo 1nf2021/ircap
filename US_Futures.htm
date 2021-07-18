@@ -1,0 +1,70 @@
+
+<head>
+<title>
+US Futures
+</title>
+<link rel="shortcut icon" href="../img/favicon.ico">
+</head>
+<body>
+
+<table>
+  <tr>
+    <td>
+        <div id="tv-miniwidget-1" style="display: inline-block"></div>
+        <script src="http://d33t3vvu2t2yu5.cloudfront.net/tv.js"></script>
+        <script>
+        new TradingView.MiniWidget({
+            container_id: 'tv-miniwidget-1',
+            "tabs": null,
+            "symbols": [
+            ["NZD","CME:N61!"],
+            ["AUD","CME:A61!"],
+            ["JPY","CME:QJY1!"],
+            ["EUR","CME:E61!"],
+            ["GBP","CME:B61!"],
+            ["CHF","CME:S61!"],
+            ["CAD","CME:D61!"],
+            ["",""],
+            ["CL","NYMEX:CL1!"],
+            ["RB","NYMEX:RB1!"],
+            ["HG","COMEX:HG1!"],
+            ["GC","COMEX:GC1!"]
+            ],
+            "large_chart_url": "https://www.tradingview.com/chart/",
+            "noGraph": true,
+            "width": "275px",
+            "height": "430px"
+        });
+        </script>
+    </td>
+
+    <td>
+        <div id="tv-miniwidget-2" style="display: inline-block"></div>
+        <script src="http://d33t3vvu2t2yu5.cloudfront.net/tv.js"></script>
+        <script>
+        new TradingView.MiniWidget({
+            container_id: 'tv-miniwidget-2',
+            "tabs": null,
+            "symbols": [
+            ["YM","CBOT_MINI:YM1!"],
+            ["ES","CME_MINI:ES1!"],
+            ["NQ","CME_MINI:NQ1!"],
+            ["",""],
+            ["",""],
+            ["",""],
+            ["",""],
+            ["",""],
+            ["ZT","CBOT:ZT1!"],
+            ["ZF","CBOT:ZF1!"],
+            ["ZN","CBOT:ZN1!"],
+            ["ZB","CBOT:ZB1!"]
+            ],
+            "large_chart_url": "https://www.tradingview.com/chart/",
+            "noGraph": true,
+            "width": "275px",
+            "height": "430px"
+        });
+        </script>
+    </td>
+  </tr>
+</table>
